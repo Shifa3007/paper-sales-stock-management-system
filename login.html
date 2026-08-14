@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Paper Sales and Stock Management System</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LEFT SIDE -->
+
+    <div class="left">
+
+        <div class="logo">
+            <i class="fas fa-layer-group"></i>
+        </div>
+
+        <h1>Paper Sales and Stock Management System</h1>
+
+        <p>
+            Manage your paper stock,<br>
+            customers, orders and invoices<br>
+            in one place.
+        </p>
+
+        <div class="bottom-icons">
+            <i class="fas fa-box"></i>
+            <i class="fas fa-scroll"></i>
+            <i class="fas fa-copy"></i>
+        </div>
+
+    </div>
+
+
+    <!-- RIGHT SIDE -->
+
+    <div class="right">
+
+        <div class="user">
+
+            <i class="fas fa-user-circle"></i>
+
+        </div>
+
+        <h2>Welcome!</h2>
+
+        <p class="subtitle">
+            Please login to your account
+        </p>
+
+        <form action="login.php" method="POST">
+
+            <label>Username</label>
+
+            <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input
+                type="text"
+                name="username"
+                placeholder="Enter your username"
+                required>
+            </div>
+
+
+            <label>Password</label>
+
+            <div class="input-box">
+
+                <i class="fas fa-lock"></i>
+
+                <input
+                type="password"
+                name="password"
+                placeholder="Enter your password"
+                required>
+
+            </div>
+
+
+            <div class="options">
+
+                <label>
+                    <input type="checkbox">
+                    Remember me
+                </label>
+
+                <a href="forgotpassword.php">Forgot Password?</a>
+
+            </div>
+
+            <button type="submit">
+                <i class="fas fa-lock"></i>
+                LOGIN
+            </button>
+
+        </form>
+
+        <footer>
+
+            © 2026 Paper Sales and Stock Management System.<br>
+
+            All rights reserved.
+
+        </footer>
+
+    </div>
+
+</div>
+
+</body>
+</html>
