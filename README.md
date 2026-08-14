@@ -1,1 +1,1 @@
-# paper-sales-stock-management-system
+# Paper Sales And Stock Management System
